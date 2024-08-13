@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn {
+  padding: 10px 30px !important;
+  border-color: tomato !important;
+  color: tomato !important;
+}
+.btn:hover {
+  background-color: tomato !important;
+  border-color: tomato !important;
+  color: #fff !important;
+}
+.card {
+  border: none !important;
+  height: 95vh !important;
+}
+img {
+  height: 100%;
+}
+.card-img-overlay {
+  color: #2e2e2e !important;
+  top: 40% !important;
+}
+.card-title {
+  font-size: 40px;
+  color: tomato !important;
+}
+.card-text {
+  max-width: 550px;
+}
+.section .card-text {
+  max-width: 700px;
+}
+footer {
+  margin-top: 5rem;
+  padding: 20px 0;
+  background-color: tomato;
+  color: #e8e8e8;
+}
+.lineAfter {
+  position: relative;
+}
+.lineAfter::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+  right: 0;
+}
+.copyright {
+  padding: 30px 0 20px;
+}
+.section {
+  margin: 60px 0;
+}
+.section3 {
+  background-color: #ededed;
+  padding: 50px 0;
+  line-height: 1.7;
+}
+.section3 .box1 {
+  background-color: tomato;
+  padding: 50px 30px;
+  color: #fff !important;
+}
+.box1 h1 {
+  color: #fff !important;
+  margin-bottom: 20px;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  margin: 0 10px;
+}
+.box2,
+.box3,
+.box4 {
+  background-color: #fff;
+  padding: 90px 40px;
+  transition: all 0.7s ease;
+}
+
+.box2:hover,
+.box3:hover,
+.box4:hover {
+  transform: scale(1.1);
+}
+
+.box1 button {
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  background-color: rgb(240, 78, 50);
+  transition: all 0.5s ease;
+}
+
+.box1 button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.number-card img {
+  height: 80% !important;
+}
+.overlay::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  background-color: #7474745c;
+  height: 80%;
+  top: 0px;
+  z-index: 1;
+  
+}
+
+.overlay h1,
+.overlay h6{
+  position: relative;
+  z-index: 1000;
+  font-size: 35px !important;
+  color: #fff !important;
+}
+
+/*----------ABOUT PAGE-----------*/
+.carousel-inner img {
+  height: 700px !important;
+}
+.mainParagraph {
+  font-size: 18px;
+  text-align: justify;
+  margin: 30px 0;
+  line-height: 1.7;
+}
